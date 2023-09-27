@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Jira">
+      <UniqueIdentifier>{cce40ac7-b274-4be5-ad19-97d596c95957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mantis">
+      <UniqueIdentifier>{1352bcc1-5a20-4194-875d-c498e427c024}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Define_A_Term.cpp">
+      <Filter>Jira</Filter>
+    </ClCompile>
+    <ClCompile Include="Download.cpp">
+      <Filter>Mantis</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
